@@ -9,21 +9,24 @@
 <body>
     <h1>Weather Dashboard</h1>
     <div class="container">
-        <div class="weather-input">
+        <div>
             <h3> Enter a City Name</h3>
-            <input type="text" placeholder="E.g, Dallas, Ausitn, San Antonio">
-            <button class="search">Search</button>
+            <input type="text" placeholder="E.g, Dallas, Ausitn, San Antonio" class="city-input">
+            <button class="search-btn">Search</button>
+            <div id="history">
+                <h4>Previous City</h4>
+            </div>
         </div>
         <div class="weather-data">
             <div class="current-weather">
                 <div class="details">
-                    <h2>Austin (2023-10-09)</h2>
-                    <h4>Temperature: 73&deg;</h4>
-                    <h4>Wind: 4 mph</h4>
-                    <h4>Humidity: 58%</h4>
+                    <h2 class="current-city">Austin (2023-10-09)</h2>
+                    <h4 class="current-temp">Temperature: 73&deg;</h4>
+                    <h4 class="current-wind">Wind: 4 mph</h4>
+                    <h4 class="current-hum">Humidity: 58%</h4>
                 </div>
                 <div class="icon">
-                    <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="weather icon">
+                    <img src="images/clouds.png" alt="weather icon">
                     <h4>Clear and Cloudy</h4>
                 </div>
                 
@@ -73,6 +76,6 @@
     </div>
     
 </body>
-
-<script href="assets/script.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="assets/script.js"></script>
 </html>
