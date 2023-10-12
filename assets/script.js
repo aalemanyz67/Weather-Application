@@ -127,7 +127,7 @@ var getWeatherForecast = (lat, lon) => {
 
 
 
-    //var cityInput = JSON.parse(localStorage.getItem("city-input"));
+    
 
 
 
