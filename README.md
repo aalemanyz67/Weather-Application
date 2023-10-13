@@ -1,6 +1,6 @@
 Student: Albert Aleman
 Github Repository: https://github.com/aalemanyz67/Weather-Application
-website: 
+website: https://aalemanyz67.github.io/Weather-Application/
 
 # Weather-Application
 Need to know the weather in your area? Look no further. This application will give you the current weather for any given area, along with a 5 day forecast.
