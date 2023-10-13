@@ -12,7 +12,7 @@ Using the 5-Day Forecast from (https://openweathermap.org/forecast5), design a w
 In this challenge the user degined and emplemented a weather website in which the user could search a city and get its current weather and a 5-Day Forecast.
 The web application that I created allows the user to search a city and get the current weather for that city.
 # How to use the application
-Upon loading the webpage the user can type in a city and click on the search button. The webpage will give the user the current weather of that city.
+Upon loading the webpage the user can type in a city and click on the search button. The webpage will give the user the current weather of that city and a 5-Day Forecast.
 
 # Technology and resources
 weather API- (https://openweathermap.org/forecast5)
