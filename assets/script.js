@@ -10,7 +10,7 @@ var getCityCoordinates = () => {
 
     var cityName = cityInput.value;
     if (!cityName) return;
-    var queryUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + APIKey;
+    var queryUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + APIKey;
     
     fetch(queryUrl)
         .then(res => res.json())
