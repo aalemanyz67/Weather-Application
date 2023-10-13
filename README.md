@@ -14,6 +14,15 @@ The web application that I created allows the user to search a city and get the 
 # How to use the application
 Upon loading the webpage the user can type in a city and click on the search button. The webpage will give the user the current weather of that city and a 5-Day Forecast.
 
+
+# Screenshot
+1) Start up of website
+![Alt text](images/startup.png)
+2) Entering the City of Dallas
+![Alt text](<images/City of Dallas.png>)
+3) Entering the City of McAllen
+![Alt text](<images/City of McAllen.png>)
+
 # Technology and resources
 weather API- (https://openweathermap.org/forecast5)
 weather icon images- https://www.freepik.com/free-photos-vectors/weather-png
